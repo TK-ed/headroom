@@ -9,3 +9,12 @@ dependencies = [
 
 [tool.fastapi]
 entrypoint = "app.main:app"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+exclude = ["tests*"]
