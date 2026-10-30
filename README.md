@@ -6,6 +6,7 @@ Headroom is a web app for a UK utility's day-ahead power trading team. It answer
 2. **How accurate are the forecasts?** It measures forecast error (MAE, RMSE, bias, P10/P90) overall, by hour of day, by delivery day and by forecast lead time.
 
 **Live app:** https://headroom-dev.vercel.app/
+**Live api:** https://headroom.fastapicloud.dev/docs
 
 ## Key findings (January 2026, 09:00 decision time)
 
