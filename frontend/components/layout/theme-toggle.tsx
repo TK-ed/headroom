@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 type Theme = "light" | "dark";
 
-const KEY = "windsight-theme";
+const KEY = "headroom-theme";
 
 function currentTheme(): Theme {
   const set = document.documentElement.dataset.theme;

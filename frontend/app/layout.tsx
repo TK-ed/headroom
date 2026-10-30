@@ -9,7 +9,7 @@ const sans = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600"], 
 const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-plex-mono" });
 
 export const metadata: Metadata = {
-  title: "WindSight",
+  title: "HeadRoom",
   description: "Day-ahead GB wind forecasts and how far to trust them.",
 };
 

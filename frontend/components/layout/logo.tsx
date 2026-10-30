@@ -7,7 +7,7 @@ export function Logo() {
         <path d="M3 13h15a3 3 0 1 1-3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
         <path d="M3 18h6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
       </svg>
-      <span className="text-[17px] font-semibold tracking-tight">WindSight</span>
+      <span className="text-[17px] font-semibold tracking-tight">HeadRoom</span>
     </span>
   );
 }
