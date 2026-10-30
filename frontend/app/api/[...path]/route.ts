@@ -6,7 +6,7 @@ export const dynamic = "force-dynamic";
 
 export async function GET(req: NextRequest, { params }: { params: Promise<{ path: string[] }> }) {
   const { path } = await params;
-  const base = process.env.API_URL ?? "http://localhost:8000";
+  const base = process.env.API_URL ?? "https://headroom.fastapicloud.dev";
   const upstream = await fetch(`${base}/api/${path.join("/")}${req.nextUrl.search}`, { cache: "no-store" });
   return new Response(upstream.body, {
     status: upstream.status,
